@@ -1,5 +1,5 @@
 import './App.css'
-import Component from './lessons/context'
+import Component from './lessons/reducer'
 
 function App() {
 
