@@ -1,11 +1,10 @@
 import './App.css'
-import Component from './lessons/reducer'
+import Component from './lessons/fetchApi'
 
 function App() {
 
   return (
     <main>
-      <h2>React & TS</h2>
       <Component />
     </main>
   )
