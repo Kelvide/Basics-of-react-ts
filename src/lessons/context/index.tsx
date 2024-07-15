@@ -17,7 +17,7 @@ const Component = () => {
             <h2>Context API</h2>
             <button onClick={() => {
                 if (context.theme === 'dark') {
-                    context.setTheme('system')
+                    context.setTheme('light')
                     return;
                 }
                 context.setTheme('dark')
