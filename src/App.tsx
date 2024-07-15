@@ -1,5 +1,5 @@
 import './App.css'
-import Component from './lessons/fetchApi'
+import Component from './lessons/rtk'
 
 function App() {
 
