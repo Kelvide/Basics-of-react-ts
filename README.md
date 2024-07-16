@@ -74,18 +74,18 @@ npm start
 Open your browser and navigate to http://localhost:3000 to view the project.
 
 ## Lessons
-# Props
+### Props
 File: src/lessons/Props/index.jsx
 
 This lesson demonstrates the use of props in a React component using TypeScript. It includes examples of how to define component props with and without the PropsWithChildren utility type from React.
 
-# Context
+### Context
 Files: src/lessons/Context/
 
 index.tsx: Demonstrates the use of a custom ThemeProvider context and a component that consumes this context.
 context.tsx: Contains the implementation of the ThemeProvider context, including the context creation and a custom hook useTheme.
 
-# Fetch API
+### Fetch API
 Files: src/lessons/FetchApi/
 
 index.tsx: Demonstrates fetching data using react-query and axios, with data validation using Zod.
@@ -93,18 +93,18 @@ usingXod.tsx: Demonstrates fetching data using the Fetch API with data validatio
 utils/axiosTypes.ts: Contains the axios fetch function and the Zod schema for data validation.
 utils/zodTypes.ts: Contains the Zod schema and TypeScript type for data validation.
 
-# Form Event
+### Form Event
 File: src/lessons/FormEvent/index.tsx
 
 This lesson demonstrates handling form events in React using TypeScript. It includes examples of how to type event handlers and manage form state using both controlled and uncontrolled components.
 
-# Reducer
+### Reducer
 Files: src/lessons/Reducer/
 
 index.tsx: Demonstrates the use of the useReducer hook in a React component. It shows how to manage complex state logic and side effects in a more predictable way.
 reducer.ts: Contains the implementation of the reducer function, including state and action types, as well as the state transition logic.
 
-# RTK
+### RTK
 Files: src/lessons/RTK/
 
 index.tsx: Demonstrates the use of Redux Toolkit (RTK) in a React application. It includes examples of setting up a store and dispatching actions.
