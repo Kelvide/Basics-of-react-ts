@@ -1,5 +1,5 @@
 import './App.css'
-import Component from './lessons/rtk'
+import Component from './lessons/RTK'
 
 function App() {
 
