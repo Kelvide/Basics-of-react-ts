@@ -44,8 +44,8 @@ src/
   |   |     ├── conterSlice.ts
   |   |     ├── hooks.ts
   │   │     └── store.ts
-  |   ├── StateManagement/
-  │   │     └── useMemo.tsk
+  |   └── StateManagement/
+  │         └── useMemo.tsk
   └── App.tsx
 ```
 
