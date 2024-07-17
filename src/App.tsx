@@ -1,5 +1,5 @@
 import './App.css'
-import Component from './lessons/StateManagement/useMemo'
+import Component from './lessons/StateManagement/useEffect'
 
 function App() {
 
