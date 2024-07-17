@@ -1,5 +1,5 @@
 import './App.css'
-import Component from './lessons/RTK'
+import Component from './lessons/StateManagement/useMemo'
 
 function App() {
 
