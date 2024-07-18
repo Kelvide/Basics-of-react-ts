@@ -46,6 +46,7 @@ src/
   │   │     └── store.ts
   |   └── StateManagement/
   |         ├── useEffect.tsx
+  |         ├── useRef.tsx
   │         └── useMemo.tsk
   └── App.tsx
 ```
@@ -122,6 +123,8 @@ Files: src/lessons/StateManagement/
 useMemo.tsx: Demonstrates the use of useMemo hook in a React application. It is used to optimize the performance of expensive functions by memoizing their outputs.
 
 useEffect.tsx: useEffect is a Hook that lets you synchronize a component with an external system. It serves the same purpose as componentDidMount, componentDidUpdate, and componentWillUnmount combined.
+
+useRef.tsx: The useRef hook is used for: Accessing and interacting with DOM elements. Keeping a persistent value across renders without causing re-renders.
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request.
