@@ -47,7 +47,9 @@ src/
   |   └── StateManagement/
   |         ├── useEffect.tsx
   |         ├── useRef.tsx
-  │         └── useMemo.tsk
+  |         ├── useMemo.tsx
+  |         ├── store.ts
+  │         └── zustand.tsk
   └── App.tsx
 ```
 
@@ -125,6 +127,10 @@ useMemo.tsx: Demonstrates the use of useMemo hook in a React application. It is 
 useEffect.tsx: useEffect is a Hook that lets you synchronize a component with an external system. It serves the same purpose as componentDidMount, componentDidUpdate, and componentWillUnmount combined.
 
 useRef.tsx: The useRef hook is used for: Accessing and interacting with DOM elements. Keeping a persistent value across renders without causing re-renders.
+
+store.ts: This file configures the Zustand store, which is used for state management in a React application. Zustand is a small, fast, and scalable state-management solution that provides a simple API for managing global state.
+
+zustand.tsx: This component demonstrates how to manage a list of users using Zustand for state management and useRef for form handling. It allows users to add new user entries to the store and displays the current list of users.
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request.
